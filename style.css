@@ -1,0 +1,317 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.div1{
+    background-color: #672672;
+}
+.header {
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+#logo {
+    display: flex;
+    width:150px;
+    padding:15px; 
+    margin-left: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 80px;
+    
+}
+#bar ul li a{
+    text-decoration: none;
+    color:rgb(121, 22, 121);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#bar ul li {
+   margin:10px;
+}
+#click {
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: #ff9231;
+    padding:10px 10px;
+    margin-left: 8px;
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+
+}
+#bar ul li a:hover{
+    color:black;
+}
+/* ..........................Div2 starts here........................... */
+.div2{
+    width:100%;
+    height:auto;
+    background-color: #672672;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+#banner {
+    width:450px;
+    padding: 60px;
+}
+.div2text{
+    position: relative;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+    right:150px;
+    text-align: center;
+    
+}
+.div2text h3{
+    color:white;
+    font-size: 60px;
+    position: relative;
+    
+}
+.p1{
+    color:white;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif
+
+}
+.p2{
+    margin-top: 20px;;
+ color:white;
+ line-height: 1.4;
+ word-spacing: 3px;
+}
+#div3{
+    display: flex;
+    justify-content: center;
+}
+#divtext{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    border:1px solid white;
+    border-radius: 50px;
+    box-shadow: 2px 3px 1px grey, -2px 0px 1px grey;
+    padding:20px;
+    width:500px;
+    position: relative;
+    bottom: 40px;
+    background-color:white;
+}
+#divtext p{
+    padding-top: 4px;
+    font-weight:500 ;
+    word-spacing: 2px;
+    line-height:1.2;
+    color:rgb(61, 59, 59);
+}
+/* .................................div4 starts here.................... */
+#div4{
+    display:flex;
+    justify-content:space-around;
+    flex-direction: row;
+    margin:5x 10px;
+    height:710px;
+    width:100%;
+}
+#cont1{
+    display: flex;
+   width:220px;
+   height:300px;
+   background-color: red;
+   position:relative;
+   right:200px;
+   top: 70px;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   background-image: linear-gradient(to bottom, #caebff, #c7fbff 100%);
+   box-shadow: 5px 5px 2px grey;
+}
+#cont2{
+    display: flex;
+    width:220px;
+   height:300px;
+   background-color:yellow; 
+   position:relative;
+   bottom:280px;
+   left:50px;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   background-image: linear-gradient(to bottom, #eaddff, #ffd4ed);
+   box-shadow: 5px 5px 2px grey;
+
+}
+#cont3{
+    display: flex;
+    width:220px;
+   height:300px;
+   background-color:blue; 
+   position:relative;
+   bottom:250px;
+   left: 50px;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   background-image: linear-gradient(to top, #ffecdc, #ffcdc5);
+   box-shadow: 5px 5px 2px grey;
+}
+#cont4{
+    display: flex;
+    width:220px;
+   height:300px;
+   background-color:green; 
+   position:relative;
+   right:198px;
+   bottom:500px;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   background-image: linear-gradient(to bottom, #d0ffc0, #fffcde);
+   box-shadow: 5px 5px 2px grey;
+}
+#cont1 p{
+   padding:2px 15px 15px 15px ;
+   text-align: center;
+   font-family: Roboto;
+   color:rgb(61, 59, 59);
+}
+#cont1 h4{
+    padding:0px 15px 15px 15px;
+    text-align:center;
+    font-family: 'Roboto';
+    color:rgb(90, 78, 78);
+}
+#cont2 p{
+    padding:2px 15px 15px 15px ;
+    text-align: center;
+    font-family: Roboto;
+    color:rgb(61, 59, 59);
+ }
+ #cont2 h4{
+     padding:0px 15px 15px 15px;
+     text-align:center;
+     font-family: 'Roboto';
+     color:rgb(90, 78, 78);
+ }
+ #cont3 p{
+    padding:2px 15px 15px 15px ;
+    text-align: center;
+    font-family: Roboto;
+    color:rgb(61, 59, 59);
+ }
+ #cont3 h4{
+     padding:0px 15px 15px 15px;
+     text-align:center;
+     font-family: 'Roboto';
+     color:rgb(90, 78, 78);
+ }
+ #cont4 p{
+    padding:2px 15px 15px 15px ;
+    text-align: center;
+    font-family: Roboto;
+    color:rgb(61, 59, 59);
+ }
+ #cont4 h4{
+     padding:0px 15px 15px 15px;
+     text-align:center;
+     font-family: 'Roboto';
+     color:rgb(90, 78, 78);
+ }
+ #div41 img{
+    width:450px;
+    padding:10px;
+    position:relative;
+    top:100px;
+    right:50px;
+ }
+ #div41 h3{
+    font-size: 40px;
+    font-family: 'PT Serif', serif;
+    position: relative;
+    top:50px;
+    left: 10px;
+    width:300px;
+    text-align: center;
+    color:#672672;
+    
+ }
+ #cont1:hover{
+    box-shadow: 2px 2px 20px black; 
+ }
+ #cont2:hover{
+    box-shadow: 2px 2px 20px black; 
+ }
+ #cont3:hover{
+    box-shadow: 2px 2px 20px black; 
+ }
+ #cont4:hover{
+    box-shadow: 2px 2px 20px black; 
+ }
+
+
+ /* .........div5............ */
+ #div5{
+    background-color:#672672;
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+
+ }
+ #div51{
+    margin:20px 10px 0px 10px;
+ }
+ #div51 ul li{
+    color:white;
+     list-style: none;
+     line-height: 1.7;
+     transition-delay: 4s;
+ }
+ #div51 ul li b{
+    color:#ffc846;
+ }
+ #div51 ul li:hover{
+    text-decoration: underline;
+ }
+ .div6{
+    background-color: #672672;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:20px 30px 0px 30px;
+
+ }
+ .div61{
+    
+ }
+ .div61 p{
+    color:white;
+    float:right;
+    margin-right:15px;
+    margin-bottom: 5px;
+    transition-delay: 3s;
+ }
+.div62 p{
+    color:white;
+}
+.div61 p:hover{
+    text-decoration: underline;
+}
